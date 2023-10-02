@@ -1,0 +1,976 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>480</width>
+    <height>320</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>480</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>480</width>
+    <height>320</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <property name="spacing">
+     <number>0</number>
+    </property>
+    <property name="sizeConstraint">
+     <enum>QLayout::SetDefaultConstraint</enum>
+    </property>
+    <property name="leftMargin">
+     <number>0</number>
+    </property>
+    <property name="topMargin">
+     <number>0</number>
+    </property>
+    <property name="rightMargin">
+     <number>0</number>
+    </property>
+    <property name="bottomMargin">
+     <number>0</number>
+    </property>
+    <item>
+     <widget class="QFrame" name="C_Backframe">
+      <property name="styleSheet">
+       <string notr="true">background-color: rgb(0, 0, 0);</string>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::StyledPanel</enum>
+      </property>
+      <property name="frameShadow">
+       <enum>QFrame::Raised</enum>
+      </property>
+      <widget class="QLabel" name="C_imgGota">
+       <property name="geometry">
+        <rect>
+         <x>107</x>
+         <y>10</y>
+         <width>265</width>
+         <height>300</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>265</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>265</width>
+         <height>300</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true"/>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../Downloads/i.png</pixmap>
+       </property>
+      </widget>
+      <widget class="QFrame" name="C_framebtnpower">
+       <property name="geometry">
+        <rect>
+         <x>166</x>
+         <y>165</y>
+         <width>147</width>
+         <height>145</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>147</width>
+         <height>145</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>147</width>
+         <height>145</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(153, 193, 241,100);
+border:solid;
+border-radius: 10px;
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="V_lblpower">
+        <property name="geometry">
+         <rect>
+          <x>36</x>
+          <y>110</y>
+          <width>77</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">
+font: 500 15pt &quot;FreeSans&quot;;
+
+color:rgb(255, 0, 0);
+background-color: rgba(153, 193, 241,0);
+</string>
+        </property>
+        <property name="text">
+         <string>POWER</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QPushButton" name="V_btnpower">
+        <property name="geometry">
+         <rect>
+          <x>22</x>
+          <y>0</y>
+          <width>104</width>
+          <height>100</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>104</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>104</width>
+          <height>100</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(153, 193, 241, 0);
+border-radius: 6px;	
+</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="icon">
+         <iconset>
+          <normaloff>../../Downloads/poweroff-removebg-preview.png</normaloff>
+          <normalon>../../Downloads/poweron-removebg-preview.png</normalon>../../Downloads/poweroff-removebg-preview.png</iconset>
+        </property>
+        <property name="iconSize">
+         <size>
+          <width>100</width>
+          <height>100</height>
+         </size>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="C_framecondensando">
+       <property name="geometry">
+        <rect>
+         <x>166</x>
+         <y>10</y>
+         <width>147</width>
+         <height>145</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>147</width>
+         <height>145</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>147</width>
+         <height>145</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(153, 193, 241,100);
+border:solid;
+border-radius: 10px;</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="V_gifcondensando">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>5</y>
+          <width>127</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>127</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>127</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(153, 193, 241,0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../../Downloads/Condensado-Render (1).gif</pixmap>
+        </property>
+       </widget>
+       <widget class="QLabel" name="C_lblcondensando">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>130</y>
+          <width>86</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>86</width>
+          <height>12</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>86</width>
+          <height>12</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 30 8pt &quot;FreeSans&quot;;
+background-color: rgba(153, 193, 241,0);
+color:rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>CONDENSANDO</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="C_frametemphum">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>147</width>
+         <height>140</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>147</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>147</width>
+         <height>140</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(153, 193, 241,100);
+border:solid;
+border-radius: 10px;
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="V_lbltemperatura">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>20</y>
+          <width>88</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>88</width>
+          <height>46</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>88</width>
+          <height>46</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #05B8CC ;
+color: rgb(255,255,255);
+font: 750 30pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="C_lblcelcius">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>20</y>
+          <width>41</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>41</width>
+          <height>46</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>41</width>
+          <height>46</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(1,1,1,0);
+color: rgb(255,255,255);
+font: 750 30pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="text">
+         <string>°C</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="V_lblhumedad">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>85</y>
+          <width>88</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>88</width>
+          <height>46</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>88</width>
+          <height>46</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #05B8CC ;
+color: rgb(255,255,255);
+font: 750 30pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="text">
+         <string>5</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="C_lblporcentaje">
+        <property name="geometry">
+         <rect>
+          <x>100</x>
+          <y>85</y>
+          <width>37</width>
+          <height>46</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>37</width>
+          <height>46</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>37</width>
+          <height>46</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(1,1,1,0);
+color: rgb(255,255,255);
+font: 750 30pt &quot;Ubuntu&quot;;</string>
+        </property>
+        <property name="text">
+         <string>%</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="C_lblhumedad">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>75</y>
+          <width>45</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>45</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>45</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 30 7pt &quot;FreeSans&quot;;
+background-color: rgba(153, 193, 241,0);
+color:rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>HUMEDAD</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="C_lbltemperatura">
+        <property name="geometry">
+         <rect>
+          <x>20</x>
+          <y>10</y>
+          <width>68</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>68</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>68</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 30 7pt &quot;FreeSans&quot;;
+background-color: rgba(153, 193, 241,0);
+color:rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>TEMPERATURA</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="C_framefiltrosestados">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>229</y>
+         <width>147</width>
+         <height>81</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>147</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>147</width>
+         <height>81</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(153, 193, 241,100);
+border:solid;
+border-radius: 10px;
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="V_lblestados">
+        <property name="geometry">
+         <rect>
+          <x>18</x>
+          <y>10</y>
+          <width>111</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>111</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>111</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #05B8CC ;
+color: rgb(255,255,255);
+font: 700 7pt &quot;FreeSans&quot;;
+border:solid;
+border-radius: 5px;
+</string>
+        </property>
+        <property name="text">
+         <string>DESCONGELAMIENTO</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="V_lblfiltros">
+        <property name="geometry">
+         <rect>
+          <x>18</x>
+          <y>46</y>
+          <width>111</width>
+          <height>25</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>111</width>
+          <height>25</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>111</width>
+          <height>21</height>
+         </size>
+        </property>
+        <property name="layoutDirection">
+         <enum>Qt::LeftToRight</enum>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: #05B8CC ;
+color: rgb(255,255,255);
+font: 700 7pt &quot;FreeSans&quot;;
+border:solid;
+border-radius: 5px;
+</string>
+        </property>
+        <property name="text">
+         <string>FILTROS</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignCenter</set>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="C_framebombaactiva">
+       <property name="geometry">
+        <rect>
+         <x>323</x>
+         <y>10</y>
+         <width>147</width>
+         <height>145</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>147</width>
+         <height>145</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>147</width>
+         <height>145</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(153, 193, 241,100);
+border:solid;
+border-radius: 10px;
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QLabel" name="C_lblbombaactiva">
+        <property name="geometry">
+         <rect>
+          <x>30</x>
+          <y>130</y>
+          <width>84</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>84</width>
+          <height>12</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>84</width>
+          <height>12</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 30 8pt &quot;FreeSans&quot;;
+background-color: rgba(153, 193, 241,0);
+color:rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>BOMBA ACTIVA</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="V_gifbombaactiva">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>10</y>
+          <width>127</width>
+          <height>111</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>127</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>127</width>
+          <height>111</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">background-color: rgba(153, 193, 241,0);</string>
+        </property>
+        <property name="text">
+         <string/>
+        </property>
+        <property name="pixmap">
+         <pixmap>../../Downloads/Bomba-Activa (1).gif</pixmap>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QFrame" name="C_framenivelestanques">
+       <property name="geometry">
+        <rect>
+         <x>323</x>
+         <y>165</y>
+         <width>147</width>
+         <height>145</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>147</width>
+         <height>145</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>147</width>
+         <height>145</height>
+        </size>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">background-color: rgba(153, 193, 241,100);
+border:solid;
+border-radius: 10px;
+</string>
+       </property>
+       <property name="frameShape">
+        <enum>QFrame::StyledPanel</enum>
+       </property>
+       <property name="frameShadow">
+        <enum>QFrame::Raised</enum>
+       </property>
+       <widget class="QProgressBar" name="V_nvlsuperior">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>30</y>
+          <width>57</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>57</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>57</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QProgressBar {
+    border: 1.5px solid #05B8CC;
+    border-radius: 6px;
+	background-color:rgba(0, 0, 0, 0)
+}
+
+QProgressBar::chunk {
+    background-color:#05B8CC ;
+	margin: 0.5px;
+}
+</string>
+        </property>
+        <property name="value">
+         <number>40</number>
+        </property>
+        <property name="textVisible">
+         <bool>false</bool>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+       <widget class="QProgressBar" name="V_nvlsuperior_2">
+        <property name="geometry">
+         <rect>
+          <x>80</x>
+          <y>30</y>
+          <width>57</width>
+          <height>90</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>57</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>57</width>
+          <height>90</height>
+         </size>
+        </property>
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">QProgressBar {
+    border: 1.5px solid #05B8CC;
+    border-radius: 6px;
+	background-color:rgba(0, 0, 0, 0)
+}
+
+QProgressBar::chunk {
+    background-color:#05B8CC ;
+	margin: 0.5px;
+}
+</string>
+        </property>
+        <property name="value">
+         <number>40</number>
+        </property>
+        <property name="textVisible">
+         <bool>false</bool>
+        </property>
+        <property name="orientation">
+         <enum>Qt::Vertical</enum>
+        </property>
+       </widget>
+       <widget class="QLabel" name="C_lblnivelestanques">
+        <property name="geometry">
+         <rect>
+          <x>21</x>
+          <y>10</y>
+          <width>105</width>
+          <height>12</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>105</width>
+          <height>12</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>105</width>
+          <height>12</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 30 8pt &quot;FreeSans&quot;;
+background-color: rgba(153, 193, 241,0);
+color:rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>NIVEL DE TANQUES</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="C_lblinferior">
+        <property name="geometry">
+         <rect>
+          <x>18</x>
+          <y>128</y>
+          <width>43</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>43</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>43</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 30 7pt &quot;FreeSans&quot;;
+background-color: rgba(153, 193, 241,0);
+color:rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>INFERIOR</string>
+        </property>
+       </widget>
+       <widget class="QLabel" name="C_lblsuperior">
+        <property name="geometry">
+         <rect>
+          <x>86</x>
+          <y>128</y>
+          <width>47</width>
+          <height>10</height>
+         </rect>
+        </property>
+        <property name="minimumSize">
+         <size>
+          <width>47</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="maximumSize">
+         <size>
+          <width>47</width>
+          <height>10</height>
+         </size>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">font: 30 7pt &quot;FreeSans&quot;;
+background-color: rgba(153, 193, 241,0);
+color:rgb(255, 255, 255);
+</string>
+        </property>
+        <property name="text">
+         <string>SUPERIOR</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QLabel" name="C_imgnube">
+       <property name="geometry">
+        <rect>
+         <x>48</x>
+         <y>10</y>
+         <width>70</width>
+         <height>57</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>70</width>
+         <height>57</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>70</width>
+         <height>57</height>
+        </size>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="pixmap">
+        <pixmap>../../Downloads/g982(3).png</pixmap>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
